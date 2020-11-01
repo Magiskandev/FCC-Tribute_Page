@@ -1,0 +1,170 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: lightyellow;
+    font-family: 'Itim', sans-serif;
+
+}
+
+#container {
+    background: greenyellow;
+    width: 80%;
+    margin: 4px auto;
+    border: 2px dotted cadetblue;
+    border-radius: 20px;
+}
+
+hgroup {
+    background: lightseagreen;
+    margin-bottom: 20px;
+    padding: 10px;
+    margin: 4px;
+    border-radius: 20px;
+}
+
+#title {
+    font-size: 60px;
+    text-align: center;
+    color: greenyellow;
+    padding: 20px;
+    font-weight: bolder;
+    text-shadow: 0 5px 15px darkgreen;
+}
+
+.adorno {
+    width: 80%;
+    border: none;
+    border-top: 5px solid antiquewhite;
+    overflow: visible;
+    text-align: center;
+    margin:auto;
+    border-radius: 30%;
+}
+
+h2 {
+    font-size: 30px;
+    text-align: center;
+    color: white;
+    font-weight: normal;
+}
+
+#img-div {
+    width: 90%;
+    margin: 15px auto;
+}
+
+#img-div:hover {
+    width: 100%;
+}
+
+#image {
+    width: 90%;
+    margin: 0 auto;
+    display: block;
+    padding: 5px;
+    border: 10px ridge aqua;  
+    border-radius: 10px;
+    filter: saturate(150%);
+    max-width: 90%;
+}
+
+figure {
+    text-align: center;
+    font-size: 18px;
+    color: steelblue;
+}
+
+.divisor {
+    width: 50%;
+    border: none;
+    border-top: 3px solid seagreen;
+    overflow: visible;
+    text-align: center;
+    margin: 10px auto;
+    border-radius: 30%;
+}
+
+#tribute-info {
+    width: 80%;
+    height: auto;
+    margin: 0 auto;
+    color: blue;
+    font-size: 20px;
+    text-align: justify;
+}
+
+article {
+    margin: 20px;
+}
+
+h4 {
+    text-align: center;
+}
+
+.centrar-time {
+    text-align: center;
+    display: block;
+}
+
+blockquote {
+    color: purple;
+    font-size: 25px;
+    font-weight: bolder;
+}
+
+#tribute-link {
+    text-decoration: none;
+    color: indigo;
+    font-size: 25px;
+    font-weight: bolder;
+    display: block;
+    text-align: center;
+}
+
+#tribute-link:hover {
+    cursor: pointer;
+    background: purple;
+    color: greenyellow;
+    border-radius: 10px;
+    font-size: 30px;
+    font-weight: normal;
+}
+
+#tribute-link:active {
+    color: hotpink;
+}
+
+#tribute-link:visited {
+    color: blueviolet;
+}
+
+.pie {
+    background: seagreen;
+    margin-bottom: 20px;
+    padding: 20px;
+    margin: 4px;
+    border-radius: 20px;
+}
+
+footer p {
+    text-align: center;
+    font-size: x-large;
+    color: whitesmoke;
+    text-decoration: underline;
+}
+
+.enlace {
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+.enlace:hover {
+    cursor: pointer;
+}
+
+.enlace:visited {
+    color: whitesmoke;
+}
